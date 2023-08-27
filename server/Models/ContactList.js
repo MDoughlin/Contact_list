@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const ContactListSchema = new mongoose.Schema({
   first_name: {
     type: String,
-    required: true
+    // required: true
   },
   last_name: {
     type: String,
@@ -14,7 +14,7 @@ const ContactListSchema = new mongoose.Schema({
   },
   phone_number: {
     type: Number,
-    required: true
+    // required: true
   },
   birthday: {
     type: Date,
